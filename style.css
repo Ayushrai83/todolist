@@ -1,0 +1,69 @@
+body {
+  background: linear-gradient(120deg, #f8f9fa, #e9ecef);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  color: #343a40;
+}
+
+#todo-form .form-control {
+  border-radius: 0.5rem;
+}
+
+#todo-form .btn-primary {
+  border-radius: 0.5rem;
+  background-color: #0d6efd;
+  transition: background-color 0.3s ease;
+}
+
+#todo-form .btn-primary:hover {
+  background-color: #0b5ed7;
+}
+
+#todo-list .list-group-item {
+  border-radius: 0.4rem;
+  margin-bottom: 0.5rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+#todo-list .btn-warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #212529;
+}
+
+#todo-list .btn-warning:hover {
+  background-color: #e0a800;
+  border-color: #d39e00;
+}
+
+#todo-list .btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: #fff;
+}
+
+#todo-list .btn-danger:hover {
+  background-color: #bb2d3b;
+  border-color: #b02a37;
+}
+
+#pagination .page-item .page-link {
+  color: #0d6efd;
+  transition: background-color 0.3s ease;
+}
+
+#pagination .page-item.active .page-link {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  color: #fff;
+}
+
+#loading {
+  color: #6c757d;
+  font-style: italic;
+  text-align: center;
+}

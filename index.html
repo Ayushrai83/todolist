@@ -24,15 +24,19 @@
 
     <div class="row g-2 mb-3">
       <div class="col-12 col-md-4">
+          <label for="from-date" class="form-label">Search</label>
         <input type="text" id="search" class="form-control" placeholder="Search by task name" />
       </div>
       <div class="col-6 col-md-4">
+        <label for="from-date" class="form-label">From</label>
         <input type="date" id="from-date" class="form-control" />
       </div>
       <div class="col-6 col-md-4">
+        <label for="from-date" class="form-label">To</label>
         <input type="date" id="to-date" class="form-control" />
       </div>
     </div>
+    
 
     <div id="loading" class="mb-3 d-none text-center fw-semibold">Loading...</div>
     <div id="error" class="alert alert-danger d-none"></div>
@@ -43,7 +47,6 @@
       <ul class="pagination justify-content-center" id="pagination"></ul>
     </nav>
   </div>
-
   <script src="app.js"></script>
 </body>
 </html>
